@@ -1,0 +1,18 @@
+{
+  "test_window_days": 30,
+  "model": {
+    "name": "HistGradientBoostingRegressor",
+    "mae": 4.525377208895162,
+    "rmse": 5.101093466429685
+  },
+  "baseline_last_week": {
+    "name": "same_day_last_week",
+    "mae": 3.5143333333333326,
+    "rmse": 5.134425316754869
+  },
+  "baseline_ma7": {
+    "name": "last_7_day_average",
+    "mae": 2.927047619047619,
+    "rmse": 4.219109571726159
+  }
+}
