@@ -1,0 +1,34 @@
+{
+  "test_window_days": 30,
+  "model": {
+    "name": "tf_mlp_regressor",
+    "mae": 0.6294016104274327,
+    "rmse": 0.7684571589880881
+  },
+  "baseline_last_week": {
+    "name": "same_day_last_week",
+    "mae": 0.5857222222222221,
+    "rmse": 0.855737552792478
+  },
+  "baseline_ma7": {
+    "name": "last_7_day_average",
+    "mae": 0.48784126984126985,
+    "rmse": 0.7031849286210266
+  },
+  "n_train": 94,
+  "n_test": 30,
+  "features": [
+    "daily_mean_temp",
+    "dow",
+    "month",
+    "dom",
+    "is_weekend",
+    "lag_1",
+    "lag_2",
+    "lag_7",
+    "lag_14",
+    "roll7_mean",
+    "roll7_std",
+    "roll14_mean"
+  ]
+}
